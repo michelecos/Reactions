@@ -1,12 +1,20 @@
-# A bare minimum Webpack and Babel configuration
+# A bare minimum Webpack and Babel configuration supporting React and ES6
 
-This is a project I have been looking for elsewhere: not a very opinionated fully accessorized compilation chain to create a web project mixing in all you might need in the future. This is the exact opposite: it is the minimum configuration with the shortest configuration files and dependencies, that will make possibile to create a Reactjs project using ES6 syntax and a build system based on Webpack.
+This is a project I have been looking for elsewhere: not a very opinionated fully accessorized compilation chain to create a web project mixing in all you might need in the future.
+This is the exact opposite: it is the minimum configuration with the shortest configuration files and dependencies, that will make possibile to create a Reactjs project using ES6 syntax and a build system based on Webpack.
+My goal is to create an environment missing everything that could be added later and with nothing but the base necessities.
 
-Sources should go into src and the entry pont should be in main.js. With these settings, typing
+Installation requires only
+
+	npm install 
+
+After installation, you can edit files inside the `src` directory. The application entry point is `main.js`. Compilation starts with
 
 	webpack
 
-A single compiled file named main.js, along with a source map, will appear in the www directory, ready for shipping. Everything outside the www directory need not be distributed.
+All the compiled sources will be aggregated in a main.js in the www directory, ready for shipping.
+Main will have a source map, to ease debugging. 
+Everything outside the www directory need not be distributed.
 
 # Installation log
 
