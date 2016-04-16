@@ -23,7 +23,7 @@ I followed [Pete Hunt's instructions on Github][1], in particular
 * npm install react react-dom
 * npm install babel-preset-react
 
-I created a Webpack config based on [James Nelson's instruction to configure Bower in 26 lines of code][2] trying to reduce line count as much as possibile and making slight changes.
+I created a Webpack config based on [James Nelson's instruction to configure Webpack in 26 lines of code][2] trying to reduce line count as much as possibile and making slight changes.
 
 	// webpack.config.js
 
