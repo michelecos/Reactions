@@ -16,12 +16,9 @@ I followed [Pete Hunt's instructions on Github][1], in particular
 
 * npm init
 * npm install webpack
-* npm install babel-loader coffee-loader
-* npm install babel-core babel-preset-es2015 babel-preset-react
-* npm install babel-core
-* npm install babel-preset-es2015 --save-dev
+* npm install babel-loader babel-core
+* npm install babel-preset-es2015 babel-preset-react -S --save-dev
 * npm install react react-dom
-* npm install babel-preset-react
 
 I created a Webpack config based on [James Nelson's instruction to configure Webpack in 26 lines of code][2] trying to reduce line count as much as possibile and making slight changes.
 
