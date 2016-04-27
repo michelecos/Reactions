@@ -1,10 +1,10 @@
 # A bare minimum Webpack and Babel configuration supporting React and ES6
 
-This is a project I have could not find elsewhere, so I created it myself.
+This is a project that I could not find elsewhere, so I created it myself.
 
 It is a starter kit for Reactjs and Webpack supporting ES.
 
-It is different because it is not a very opinionated, fully accessorized compilation chain, built support a web project as it grows, with all the features one might need in the future, like testing, modularization and whatnot.
+It is different because it is not a very opinionated, fully accessorized compilation chain, built to support a web project as it grows, with all the features one might need in the future, like testing, modularization and whatnot.
 
 This project is the exact opposite: it has the minimum of features, the shortest configuration files, the least dependencies, that will allow one to compile Reactjs code and support ES6 syntax.
 
